@@ -25,7 +25,8 @@ def calculadora():
             print("Digite uma operação válida! As operações válidas são: +, -, * e /: ")
 
     except ValueError:
-        print("Erro: Entrada inválidaDigite um número válido! .\n")
+        print("Erro: Entrada inválida Digite um número válido! .\n")
         return calculadora()
     
 calculadora()
+
